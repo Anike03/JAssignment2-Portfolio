@@ -2,7 +2,7 @@ Aniket Sharma — Developer Portfolio
 This is a fully responsive, interactive web developer portfolio built using React.js, featuring 3D animated backgrounds, project showcases, skills, and a contact form that actually sends messages to your email.
 
 🔗 Live Demo
-🌐 https://your-frontend-deployed-url.vercel.app
+🌐 https://j-assignment2-portfolio.vercel.app/
 (API: https://jassignment1-awl0.onrender.com)
 
 📁 Features
