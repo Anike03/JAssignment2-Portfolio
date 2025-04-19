@@ -1,0 +1,55 @@
+.contact {
+  max-width: 600px;
+  margin: 100px auto 20px;
+  color: #00ff00;
+  font-family: "Press Start 2P", cursive;
+}
+
+h2 {
+  text-align: center;
+  color: #ff00ff;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #00ffff;
+}
+
+input,
+textarea {
+  background: #111;
+  color: #0f0;
+  border: 1px solid #00ff00;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #00ffff;
+  border: none;
+  color: #111;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #ff00ff;
+  color: #fff;
+}
+.form-status {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #00e5ff;
+  text-align: center;
+}

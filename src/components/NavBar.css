@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+  border-bottom: 1px solid #00ffff;
+}
+
+.navbar a {
+  color: #00ffff;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0 20px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff00ff;
+  border-bottom: 2px solid #ff00ff;
+}
+
+.navbar a.active {
+  color: #00ff00;
+  border-bottom: 2px solid #00ff00;
+}
